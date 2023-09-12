@@ -19,5 +19,4 @@ or (depends on different nodes of polyland)
 
 to compile with a specific arch:
 
-
-`nvcc x.cu --generate-code arch=compute_50,code=sm_50`
+`nvcc saxpy.cu --generate-code arch=compute_50,code=sm_50`
