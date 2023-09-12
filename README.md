@@ -12,3 +12,7 @@ or (depends on different nodes of polyland)
 
 `/usr/local/cuda-12.2/bin/nvcc` 
 
+# cuda may have different architectures for GPU, to check avaiable arch:
+`nvcc --list-gpu-arch`
+
+`nvcc --list-gpu-code`
