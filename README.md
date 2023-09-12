@@ -16,3 +16,8 @@ or (depends on different nodes of polyland)
 `nvcc --list-gpu-arch`
 
 `nvcc --list-gpu-code`
+
+to compile with a specific arch:
+
+
+`nvcc x.cu --generate-code arch=compute_50,code=sm_50`
